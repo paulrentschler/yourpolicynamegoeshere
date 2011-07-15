@@ -1,0 +1,20 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="policy.yourpolicynamegoeshere">
+
+    <five:registerPackage package="." initialize=".initialize" />
+
+    <!-- Profiles -->
+    <genericsetup:registerProfile
+        name="default"
+        title="Your Policy Name Goes Here"
+        directory="profiles/default"
+        description="Installs the 'Your Policy Name Goes Here' Plone policy."
+        provides="Products.GenericSetup.interfaces.EXTENSION" />
+
+</configure>
+
+

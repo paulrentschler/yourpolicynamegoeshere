@@ -7,7 +7,7 @@ setup(name='policy.yourpolicynamegoeshere',
     version=version,
     description="Your Policy Name Goes Here",
     long_description=open("README.txt").read() + "\n" +
-                     open("HISTORY.txt").read(),
+                     open("CHANGES.txt").read(),
     # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
       "Framework :: Plone",
